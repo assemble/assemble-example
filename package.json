@@ -1,0 +1,33 @@
+{
+  "name": "assemble-example",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/assemble-example",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/assemble-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/assemble-example/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/assemble-example/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "assemble": "~0.4.37"
+  },
+  "keywords": []
+}
