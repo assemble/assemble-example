@@ -1,4 +1,0 @@
-assemble-example
-================
-
-Example
