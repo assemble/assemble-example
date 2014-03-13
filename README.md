@@ -2,11 +2,12 @@
 
 > Assemble makes it easy to combine templates, data and content to produce any kind of resulting documents, such as HTML web pages, UI components, styleguides, blog posts, and so on.
 
+_(WIP)_
 
 ## Getting Started
 
-* Installation
-* Brief Example
+* Installation (TODO)
+* Brief Example (TODO)
 
 
 ```handlebars
