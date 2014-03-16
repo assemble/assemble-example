@@ -2,7 +2,7 @@
 
 > This project will help you get started with Assemble. Just download, install the dependencies, and you're off and running!
 
-Think Assemble seems complicated? You might be amazed at how litte you need to get started. [This gist](https://gist.github.com/jonschlinkert/9579914) has everything you need to create a 100% complete Assemble project!
+You might be amazed at how little setup is required to start using Assemble. [This gist](https://gist.github.com/jonschlinkert/9579914) includes everything you need to create a 100% complete Assemble project!
 
 ## Getting started
 
