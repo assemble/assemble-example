@@ -1,7 +1,7 @@
 {
   "name": "assemble-example",
-  "description": "",
-  "version": "0.1.0",
+  "description": "Example Assemble project.",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/assemble-example",
   "author": {
     "name": "Jon Schlinkert",

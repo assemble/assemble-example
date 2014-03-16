@@ -7,16 +7,12 @@
 
 
 module.exports = function(grunt) {
-
   'use strict';
 
   grunt.initConfig({
-
     assemble: {
       options: {
         flatten: true,
-
-        // Templates
         partials: ['templates/includes/*.hbs'],
         layoutdir: 'templates/layouts',
         layout: 'default.hbs'
@@ -27,8 +23,9 @@ module.exports = function(grunt) {
     }
   });
 
-  // Load npm plugins to provide necessary tasks.
+  // Load the Assemble plugin.
   grunt.loadNpmTasks('assemble');
 
+  // The default task to run with the `grunt` command.
   grunt.registerTask('default', ['assemble']);
 };
