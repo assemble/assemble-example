@@ -27,7 +27,7 @@ _<sup>(Although this example project uses Grunt, unless otherwise noted the info
 
 ### Usage
 
-Let's start with the basics. This is everything Assemble requires to successfully build a project:
+This is all Assemble needs to successfully build a project:
 
 ```js
 assemble: {
@@ -37,7 +37,9 @@ assemble: {
 }
 ```
 
-Want more? What are you waiting for? Read on...
+Done. No, really, that's all you need.
+
+Oh, you want more than this? Then what are you waiting for! read on...
 
 _(This example project uses a [Gruntfile](./Gruntfile.js) so the configuration examples use [Grunt](http://gruntjs.com/) conventions, but the options themselves are not specific to Grunt. You can use the same options in your [Gulpfile](https://github.com/gulpjs/gulp/blob/master/gulpfile.js) using [Gulp](http://gulpjs.com/) conventions, or with Assemble > v0.5 you can pass the options directly to Assemble if you prefer.)_
 
@@ -58,13 +60,13 @@ By the end of this document, you will know what each of these concepts mean, as 
 
 > Templates keep your code as organized, modular, and reusable as it can be. Which means projects will be easier to maintain as a result.
 
-A template is a document or document fragment that contains variables that will be replaced (by the template engine) with actual data, content or other documents. Assemble uses [Handlebars.js](handlebarsjs.com) as its default template engine <sup>[1](#extending-assemble)</sup>. So the syntax you see in the examples comes from that library.
+A template is a document or document fragment that contains variables that will be replaced (by the template engine) with actual data, content or other documents. Assemble uses [Handlebars.js](handlebarsjs.com) as its default template engine, so the syntax you see in the examples comes from that library.
 
-Templates can be any shape and size you want them to be, but Assemble has built-in support and conventions for the following template structures:
+Handlebars is super powerful, giving you as much freedom and power as you need to arrange your templates the way you want them. Assemble adds to this by offering built-in support and conventions for the following template structures:
 
 * **Layouts**: used to "wrap" pages with common or site-wide elements, such as headers and footers, the `<head></head>` section, navigation and so on. Note that _layouts are also optional_.
-* **Pages**: typically have a 1-to-1 relationship with the actual generated HTML pages in a project, e.g. `about.hbs` => `about.html` or `about/index.html`. But pages can also be dynamically generated from config data. It might also help to think of a page as something that would get inserted into the middle of a layout.
-* **Partials**: referred to sometimes as _includes_, partials are like document fragments, snippets, or other small chunks of reusable code that will be included, inserted or embedded into other templates at build time. A partial can be a button, or a navbar, or even a Google Analytics script. For an example, see [how Zurb Foundation uses partials](https://github.com/zurb/foundation/tree/master/doc/includes) in their [documentation](http://foundation.zurb.com/docs/).
+* **Pages**: typically have a 1-to-1 relationship with the actual generated HTML pages in a project, e.g. `about.hbs` => `about.html` or `about/index.html`. But pages can also be dynamically generated from config data. It might also help to think of a page as something that would get inserted into the middle of a layout. See [how Less.js uses pages](https://github.com/less/less-docs/blob/master/templates/index.hbs) to build their [documentation](http://lesscss.org/features/).
+* **Partials**: referred to sometimes as _includes_, partials are like document fragments, snippets, or other small chunks of reusable code that will be included, inserted or embedded into other templates at build time. A partial can be a button, or a navbar, or even a Google Analytics script. For an example, see [how Zurb Foundation uses partials](https://github.com/zurb/foundation/tree/master/doc/includes) to build their [documentation](http://foundation.zurb.com/docs/).
 
 Here are some examples and additional explanation of each template type.
 
