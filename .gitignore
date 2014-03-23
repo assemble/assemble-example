@@ -43,11 +43,3 @@ bower_components
 _gh_pages
 _site
 _draft
-
-# Planned
-content/blog
-content/boilerplates
-content/examples
-content/tutorials
-
-build-chain.fw.png
